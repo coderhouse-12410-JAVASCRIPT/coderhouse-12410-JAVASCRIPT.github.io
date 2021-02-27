@@ -47,7 +47,7 @@ const MemeComponent = {
             redirect: 'follow'
         };
 
-        fetch("https://api.estadisticasbcra.com/var_usd_vs_usd_of", requestOptions)
+        fetch("https://coderhouse-12410-javascript.github.io/data/data.json", requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
