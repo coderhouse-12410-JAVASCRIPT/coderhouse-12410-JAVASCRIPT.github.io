@@ -2,7 +2,8 @@
 const routes = [
     { path: '/', component: HomeComponent},
     { path: '/about', component: AboutComponent} ,
-    { path: '/contact', component: ContactComponent }
+    { path: '/contact', component: ContactComponent },
+    { path: '/meme', component: MemeComponent }
 ];
 
 const parseLocation = () => location.hash.slice(1).toLocaleLowerCase() || '/';
