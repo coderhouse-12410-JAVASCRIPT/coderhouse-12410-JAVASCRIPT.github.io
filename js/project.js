@@ -62,6 +62,27 @@ class Project extends HTMLElement {
             "class": "col-6"
         });
 
+        let div_col_6_right =  $('<div/>', {
+            "class": "col-6 text-right"
+        });
+        
+        let a_div_col_6 = $('<a/>', {
+            "class": "btn radius-50 btn-gray-transparent btn-animated",
+            "href": 'projects/'+this.folder+'/index.html',
+            "text": "Open Project"
+        });
+
+        let a_i = $('<i/>', {
+            "class": "fa fa-arrow-right"
+        });
+
+        a_i.appendTo(a_div_col_6);
+
+        a_div_col_6.appendTo(div_col_6_right);
+        
+        div_col_6_right.appendTo(div_row_flex);
+
+
         img_prj.appendTo(div_overlay)
 
         a_img.appendTo(div_overlay)
@@ -79,7 +100,7 @@ class Project extends HTMLElement {
         // Orden de componentes
         div_body.appendTo(div_img)
 
-        button.appendTo(div_img)
+        //button.appendTo(div_img)
 
         $(this).append(div_img);
         $(this).addClass("col-md-6 col-xl-4");

@@ -1,12 +1,12 @@
 const projects = {
     project_list: [
         {
-            project_title: "Simulador bla",
-            folder: "simulador_1",
+            project_title: "After-Class-SPA",
+            folder: "after-class-spa",
             student: "Alejandro Medici",
             img_preview_src: "https://via.placeholder.com/400x150/FF0000/000000",
             date: "Feb 20, 2021",
-            contact: "bla.ble@gmail.com"
+            contact: "alejandro.medici@nextiteration.com.ar"
         },
         {
             project_title: "Carrito",
