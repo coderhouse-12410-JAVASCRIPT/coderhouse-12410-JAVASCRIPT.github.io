@@ -7,7 +7,7 @@ const projects = {
             img_preview_src: "https://via.placeholder.com/400x150/FF0000/000000",
             date: "Feb 20, 2021",
             contact: "alejandro.medici@nextiteration.com.ar"
-        },
+        }/*,
         {
             project_title: "Carrito",
             folder: "shoppingcart_1",
@@ -47,7 +47,7 @@ const projects = {
             img_preview_src: "https://via.placeholder.com/400x150/008B8B/000000",
             date: "Feb 22, 2021",
             contact: "ble.blo@gmail.com"
-        }
+        }*/
 
     ]
 };
