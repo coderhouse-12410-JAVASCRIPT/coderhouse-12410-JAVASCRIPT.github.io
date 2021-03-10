@@ -20,8 +20,8 @@ const projects = {
             project_title: "Quiz App",
             folder: "quiz-app",
             student: "Natalia Duran",
-            img_preview_src: "https://firebasestorage.googleapis.com/v0/b/pruebachicos-ojdmti.appspot.com/o/quizapppreview.png?alt=media&token=e739164a-307c-4e29-ae37-dcff21e35fc4",
-            date: "Mar 7, 2021",
+            img_preview_src: "https://firebasestorage.googleapis.com/v0/b/pruebachicos-ojdmti.appspot.com/o/quizapp.png?alt=media&token=69d7b8bb-6176-4b0a-bf84-a5ac055c94bb",
+            date: "Mar 10, 2021",
             contact: "o.nataliaduran@gmail.com"
         }/*,
         {
