@@ -15,6 +15,14 @@ const projects = {
             img_preview_src: "https://i.ytimg.com/vi/o8E-G--coq4/maxresdefault.jpg",
             date: "Mar 10, 2021",
             contact: "arielmolho@gmail.com"
+        },
+        {
+            project_title: "Quiz App",
+            folder: "quiz-app",
+            student: "Natalia Duran",
+            img_preview_src: "https://firebasestorage.googleapis.com/v0/b/pruebachicos-ojdmti.appspot.com/o/quizapppreview.png?alt=media&token=e739164a-307c-4e29-ae37-dcff21e35fc4",
+            date: "Mar 7, 2021",
+            contact: "o.nataliaduran@gmail.com"
         }/*,
         {
             project_title: "Project Title",
