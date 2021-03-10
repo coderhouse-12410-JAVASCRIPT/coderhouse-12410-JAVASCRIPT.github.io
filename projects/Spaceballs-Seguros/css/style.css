@@ -1,0 +1,290 @@
+@font-face{
+    font-family: 'starjedi';
+    src: URL('starjedi.ttf') format('truetype');
+}
+
+body {
+    --text-color: #2d2b3c;
+    --bkg-color: #fff;
+}
+body.dark-theme {
+    --text-color: #FFE81F;
+    --bkg-color: #000000;
+}
+
+.no-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: var(--bkg-color);
+}
+
+/* NAV */
+.logo{
+    width: 200px;
+    height: 60px;
+    padding-left: 1rem;
+}
+
+.navbar-dark{
+    background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* JUMBOTRON-INICIO */
+h1{
+    font-family: 'starjedi';
+    text-align: center;
+    padding-bottom: 5vh;
+    color: #FFE81F;
+    text-shadow: 2px 2px 5px white;
+}
+
+p.lead{
+    text-align: center;
+    font-size: 30px;
+    padding: 2vh;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px red;
+}
+
+.jumbotron {
+    height: 80vh;
+    width: 100%;
+    background: url("https://media.giphy.com/media/3oeL6eMDAXKLvxKYub/giphy.gif") no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+/* NOSOTROS */
+.aboutUs{
+    background-color: darkslategrey;
+}
+
+.aboutUs-description{
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.aboutUs-title{
+    font-family: 'starjedi';
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: #FFE81F;
+    text-shadow: 2px 2px 5px white;
+}
+
+.aboutUs-article{
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+/* FORM */
+
+.darkMode {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn-toggle{
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 15px 10px;
+    margin: 5px;
+    border-style: none;
+    background-color: white;
+}
+
+#lightSide, #darkSide {
+    height: 30px;
+    width: 30px;
+}
+
+.form-title{
+    font-family: 'starjedi';
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    color: var(--text-color);
+    text-shadow: 2px 2px 5px white;
+}
+
+form{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+fieldset{
+    background-color: #D3DAD6;
+    border-radius: 10px;
+    margin: 0 25% 20px 25%;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+input:hover, select:hover, textarea:hover{
+    background-color: #dfdfdf;
+}
+
+button[type=submit], button[type=reset]{
+    width: 49%;
+    border: none;
+    font-family: 'starjedi';
+    color: #FFE81F;
+    background-color: darkslategrey;
+    border-radius: 3px;
+}
+
+.ageOut{
+    color: red;
+    text-align: center;
+}
+
+/* MODAL */
+.modal-title{
+    font-family: 'starjedi';
+    color: #FFE81F;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+}
+
+#confirmarPoliza, #desestimarPoliza, #close, #desestimarPolizaLast, #confirmarPolizaLast, #closeLast, #ultimaCotBoton{
+    border: none;
+    font-family: 'starjedi';
+    color: #FFE81F;
+    background-color: darkslategrey;
+    border-radius: 3px;
+}
+
+#ultimaCotBoton {
+    margin-bottom: 2rem;
+}
+
+#confirm, #confirmLast {
+    font-family: 'starjedi';
+    color: rgb(158, 7, 37);
+}
+
+/* TERMS */
+.video-wrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* FOOTER */
+.footer-redes{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-copyright {
+    background-color: darkslategrey;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.copyright {
+    margin-bottom: 0;
+}
+
+@media (max-width: 566px) {
+    /* JUMBOTRON-INICIO */
+    h1.display-4{
+        font-size: 2rem;
+    }
+    p.lead{
+        font-size: 18px;
+    }
+    .aboutUs-title{
+        font-size: 25px;
+    }
+    .aboutUs-article{
+        font-size: 14px;
+    }
+    /* FORM */
+    .darkMode {
+        position: fixed;
+        top: 10%;
+        -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        transform: translateY(-10%);
+    }
+    .form-control, .form-group{
+        font-size: 12px;
+    }
+    button[type=submit], button[type=reset]{
+        font-size: 10px;
+    }
+    fieldset{
+        margin: 0 10% 10px 10%;
+    }
+    .modal-title{
+        font-size: 20px;
+    }
+    /* FOOTER */
+    .socialIcon{
+        height: 20px;
+        width: 20px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 768px) {
+    /* JUMBOTRON-INICIO */
+    h1{
+        padding-bottom: 4vh;
+    }
+    h1.display-4{
+        font-size: 3rem;
+    }
+    p.lead{
+        font-size: 22px;
+    }
+    .aboutUs-article{
+        font-size: 14px;
+    }
+    /* FORM */
+    .form-control, .form-group, button[type=submit], button[type=reset]{
+        font-size: 14px;
+    }
+    fieldset{
+        margin: 0 10% 10px 10%;
+    }
+    .modal-title{
+        font-size: 24px;
+    }
+}
