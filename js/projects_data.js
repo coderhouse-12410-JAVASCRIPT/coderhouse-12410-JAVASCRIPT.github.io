@@ -23,15 +23,15 @@ const projects = {
             img_preview_src: "https://firebasestorage.googleapis.com/v0/b/pruebachicos-ojdmti.appspot.com/o/quizapp.png?alt=media&token=69d7b8bb-6176-4b0a-bf84-a5ac055c94bb",
             date: "Mar 10, 2021",
             contact: "o.nataliaduran@gmail.com"
-        }/*,
-        {
-            project_title: "Project Title",
-            folder: "project_1",
-            student: "Ale Medici",
-            img_preview_src: "https://via.placeholder.com/400x150/0000FF/000000",
-            date: "Feb 22, 2021",
-            contact: "ble.blo@gmail.com"
         },
+        {
+            project_title: "Menu Interactivo (Mobile)",
+            folder: "menu-interactivo",
+            student: "Joaquin Brizuela",
+            img_preview_src: "https://firebasestorage.googleapis.com/v0/b/menu-interactivo-96a52.appspot.com/o/menuProyecto.png?alt=media&token=44e4ed82-96e4-4d05-9e00-635503b09bc7",
+            date: "Mar 15, 2021",
+            contact: "joaquinbriz1@gmail.com"
+        }/*,
         {
             project_title: "Project Title",
             folder: "project_1",

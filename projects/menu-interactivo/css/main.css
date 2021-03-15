@@ -1,0 +1,368 @@
+/*HTML*/
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+  header img.logo {
+    width: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 800; }
+  header h2 {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px; }
+  header div {
+    display: flex;
+    justify-content: space-around; }
+    header div .buttonClases {
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-family: "ubuntu";
+      font-size: 18px;
+      border-radius: 100px;
+      padding: 5px 25px 5px 25px;
+      background-color: #ff5c5c;
+      border-width: 3px;
+      border-color: #f2a22c;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+      text-decoration: none; }
+      header div .buttonClases a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-decoration: none;
+        color: white; }
+    header div .buttonClases:hover {
+      background-color: white;
+      color: #ff5c5c;
+      border-color: #f2a22c; }
+
+.alertCarrito {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px; }
+  .alertCarrito .alertCarritoTitulo {
+    font-family: "ubuntu"; }
+  .alertCarrito .alertCarritoHtml {
+    font-family: "ubuntu"; }
+  .alertCarrito .alertCarritoButton {
+    border-radius: 30px;
+    background-color: #ff5c5c;
+    padding-right: 30px;
+    padding-left: 30px; }
+    .alertCarrito .alertCarritoButton a {
+      color: white;
+      text-decoration: none; }
+
+.alertAgregarCarrito {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white; }
+  .alertAgregarCarrito .alertAgregarCarritoTitle {
+    font-family: "ubuntu"; }
+  .alertAgregarCarrito .alertAgregarCarritoTexto {
+    font-family: "ubuntu"; }
+  .alertAgregarCarrito .alertAgregarCarritoButton {
+    border-radius: 30px;
+    background-color: #ff5c5c;
+    font-weight: 500;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px; }
+
+.alertQuitarCarrito {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white; }
+  .alertQuitarCarrito .alertQuitarCarritoTitle {
+    font-family: "ubuntu"; }
+  .alertQuitarCarrito .alertQuitarCarritoTexto {
+    font-family: "ubuntu"; }
+  .alertQuitarCarrito .alertQuitarCarritoButton {
+    border-radius: 30px;
+    background-color: #ff5c5c;
+    font-weight: 500;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px; }
+
+.headerPago {
+  margin-top: 0%;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  .headerPago img.logo {
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .headerPago h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    text-align: center; }
+
+.instagram-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  font-size: 32px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  border-radius: 50%;
+  z-index: 10000;
+  text-decoration: none;
+  color: #fff; }
+
+.instagram-button:focus {
+  animation: pulse 1s;
+  outline: none;
+  text-decoration: none; }
+
+.carrito-button {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  display: flex;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4px;
+  background: #fd5949;
+  border: #f2a22c 4px solid;
+  font-size: 27px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  bottom: 20px;
+  border-radius: 50%;
+  z-index: 10000;
+  color: white; }
+  .carrito-button .carrito-cantidad {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    display: flex;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4px;
+    background: #f2a22c;
+    border: #fd5949 2px solid;
+    font-size: 27px;
+    height: 25px;
+    width: 25px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 50%;
+    z-index: 10000;
+    color: white; }
+    .carrito-button .carrito-cantidad .carrito-cantidad-numero {
+      font-weight: 700;
+      margin-top: 15px;
+      margin-left: 4px;
+      font-size: 15px;
+      color: black; }
+  .carrito-button a {
+    outline: none;
+    text-decoration: none;
+    color: white; }
+
+.carrito-button:focus {
+  animation: pulse 1s;
+  outline: none;
+  text-decoration: none;
+  color: white; }
+
+.mainPrincipal .buttonTipo {
+  font-family: "ubuntu";
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 50%;
+  margin-right: 50%;
+  border-radius: 100px;
+  transform: translate(-50%, -50%);
+  padding: 5px 35px 5px 35px;
+  background-color: #ff5c5c;
+  border-width: 3px;
+  border-color: #f2a22c;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); }
+  .mainPrincipal .buttonTipo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px; }
+
+.menuGlobal .tituloSeccion {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px; }
+
+.menuGlobal hr {
+  height: 12px;
+  width: 50%;
+  background-color: #ff5c5c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 100px; }
+
+.menuGlobal .productoGlobal {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+  margin-bottom: 80px;
+  padding-top: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #f2a22c;
+  background-color: #ff5c5c;
+  color: white; }
+  .menuGlobal .productoGlobal .imagenProducto {
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    border-radius: 20px;
+    width: 80%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f2a22c; }
+  .menuGlobal .productoGlobal .nombreProducto {
+    font-weight: 600;
+    float: left;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-left: 10%;
+    padding-bottom: 5px; }
+  .menuGlobal .productoGlobal .precioProducto {
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 10%;
+    float: right;
+    padding-bottom: 5px; }
+  .menuGlobal .productoGlobal .descripcionProducto {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 25px; }
+  .menuGlobal .productoGlobal .buttonOrder {
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    font-family: "ubuntu";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-radius: 100px;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border-width: 3px;
+    border-color: #f2a22c;
+    color: #ff5c5c;
+    font-weight: 600; }
+  .menuGlobal .productoGlobal .buttonOrder:hover {
+    background-color: white;
+    color: #ff5c5c; }
+
+.mainPago {
+  padding-top: 0%; }
+  .mainPago .formularioPago {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+    .mainPago .formularioPago div label {
+      padding-left: 5px;
+      font-style: italic;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 30px;
+      margin-bottom: 5px;
+      text-align: left;
+      display: block; }
+    .mainPago .formularioPago div input {
+      padding: 10px;
+      width: 100%;
+      border-radius: 10px;
+      border: solid #f2a22c; }
+    .mainPago .formularioPago div input[type]:focus {
+      border-style: solid;
+      border-color: #ff5c5c;
+      box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(255, 144, 0, 0.6);
+      outline: 0 none; }
+    .mainPago .formularioPago .finalizarPago {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "ubuntu";
+      font-size: 25px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-radius: 100px;
+      padding: 5px 35px 5px 35px;
+      background-color: #ff5c5c;
+      border-width: 3px;
+      border-color: #f2a22c;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); }
+      .mainPago .formularioPago .finalizarPago a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 2px; }
+
+.alertCarrito .alertCarritoButton {
+  background-color: #ff5c5c;
+  border-radius: 30px;
+  outline: none; }
+  .alertCarrito .alertCarritoButton a {
+    text-decoration: none;
+    color: white; }
+
+.alertQuitarCarrito .alertQuitarCarritoButton {
+  background-color: #ff5c5c;
+  border-radius: 30px; }
+  .alertQuitarCarrito .alertQuitarCarritoButton a {
+    text-decoration: none;
+    color: white; }
+
+.finalizarPagoForm .finalizarPagoButton {
+  background-color: #ff5c5c;
+  border-radius: 30px; }
+  .finalizarPagoForm .finalizarPagoButton a {
+    text-decoration: none;
+    color: white; }

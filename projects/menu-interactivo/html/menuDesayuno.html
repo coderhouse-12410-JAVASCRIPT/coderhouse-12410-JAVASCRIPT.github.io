@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desayuno</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--ICONO DE BARRA-->
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/iconoWeb.png"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="../Images/logo.png" alt="logo">
+      <h1>Desayuno</h1>
+      <h2>Elije lo que vas a desayunar</h2>
+      <div>
+        <a href="#comidasD"><button type="button" class="buttonClases btn btn-primary">Comidas</button></a>
+        <a href="#bebidasD"><button type="button" class="buttonClases btn btn-primary">Bebidas</button></a>
+        <a href="#postresD"><button type="button" class="buttonClases btn btn-primary">Postres</button></a>
+      </div>      
+    </header>
+    <main class="menuGlobal">
+      <h2 id="comidasD" class="tituloSeccion">Comidas</h2>
+      <hr>
+
+      <section data-id="1" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Comida/tostado.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Tostado</h2>
+        <h3 class="precioProducto">$140</h3>
+        <p class="descripcionProducto">El sándwich mixto es un sándwich emparedado con jamón y queso amarillo​ dentro de dos rebanadas de pan de sándwich.</p>
+        <button class="buttonOrder buttonCancel btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="2" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Comida/omelette.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Omelette</h2>
+        <h3 class="precioProducto">$190</h3>
+        <p class="descripcionProducto">El omelette es un plato elaborado con huevo batido y cocinado con mantequilla o aceite (depende de la zona), en una sartén.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="3" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Comida/desayunoClasico.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Desayuno Clasico</h2>
+        <h3 class="precioProducto">$270</h3>
+        <p class="descripcionProducto">2 medialunas, Mega Latte y shot de exprimido de Naranja. Ideal para aquello amantes de un desayuno clásico.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="4" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Comida/desayunoUrbano.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Desayuno Urbano</h2>
+        <h3 class="precioProducto">$280</h3>
+        <p class="descripcionProducto">Lungo (Cafe grande) y 1/2 tostado de miga con jamón y queso. Ideal para aquello amantes de un desayuno urbano.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="5" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Comida/tostadasConCrema.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Tostadas con crema</h2>
+        <h3 class="precioProducto">$120</h3>
+        <p class="descripcionProducto">Tostadas acompañadas de crema untable y mermelada de frambuesa. Ideal para aquello amantes de las tostadas.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="6" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Comida/desayunoAmericano.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Desayuno Americano</h2>
+        <h3 class="precioProducto">$480</h3>
+        <p class="descripcionProducto">Huevos revueltos sobre pan, latte y exprimido de naranja. Ideal para aquello amantes de un desayuno americano.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+
+      <h2 id="bebidasD" class="tituloSeccion">Bebidas</h2>
+      <hr>
+
+      <section data-id="7" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Bebida/capuccino.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Capuccino</h2>
+        <h3 class="precioProducto">$160</h3>
+        <p class="descripcionProducto">El Capuccino esta preparado con café expreso y leche montada con vapor para darle cremosidad. Perfecto para un dia helado.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="8" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Bebida/megaLatte.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Mega Latte</h2>
+        <h3 class="precioProducto">$150</h3>
+        <p class="descripcionProducto">Cafe con leche extra grande. Genial para acompañar con un tostado, tostadas con crema o un postre.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="9" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Bebida/frapuccino.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Frapuccino</h2>
+        <h3 class="precioProducto">$200</h3>
+        <p class="descripcionProducto">Se compone de café u otro ingrediente de base (vainilla, chocolate o dulce de leche), mezclado con hielo.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="10" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Bebida/cafeCortado.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Café Cortado</h2>
+        <h3 class="precioProducto">$90</h3>
+        <p class="descripcionProducto">Café expreso con una pequeña cantidad de leche normalmente caliente para quitarle un toque de amargor.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="11" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Bebida/exprimidoNaranja.jpeg" alt="imagen-producto">
+        <h2 class="nombreProducto">Exprimido de Naranja</h2>
+        <h3 class="precioProducto">$230</h3>
+        <p class="descripcionProducto">El zumo de naranja parece más nutritivo que las versiones sin pulpa ademas de su potente sabor cítrico.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="12" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Bebida/submarino.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Submarino</h2>
+        <h3 class="precioProducto">$160</h3>
+        <p class="descripcionProducto">El submarino o remo es una bebida en la que se introduce una barra de chocolate dentro de la taza.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+
+      <h2 id="postresD" class="tituloSeccion">Postres</h2>
+      <hr>
+
+      <section data-id="13" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Postre/scons.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Scons</h2>
+        <h3 class="precioProducto">$130</h3>
+        <p class="descripcionProducto">Consta de cinco scons de sabor vainilla, chocolate o limón (con dip de mermelada y queso crema para acompañar).</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="14" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Postre/budin.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Budín del Día</h2>
+        <h3 class="precioProducto">$175</h3>
+        <p class="descripcionProducto">Consultar por opción "SIN TACC".(vainilla, coco y chocolate.) Perfecto para acompañar con un cafe con leche o Capuccino.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="15" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Postre/ricota.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Tarta de ricota</h2>
+        <h3 class="precioProducto">$240</h3>
+        <p class="descripcionProducto">Porción de tarta hecha a base a ricota y limón. Perfecto balance entre lo dulce de la torta y lo cítrico del limón.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="16" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Postre/tartaDeManzana.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Tarta de manzana</h2>
+        <h3 class="precioProducto">$310</h3>
+        <p class="descripcionProducto">Porción de tarta de manzana hecha a base de manzanas en almibar y masa sabor vainilla. Perfecto con un cafe.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="17" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Postre/alfajorDeMaicena.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Alfajor de maicena</h2>
+        <h3 class="precioProducto">$230</h3>
+        <p class="descripcionProducto">Alfajor de tapa de maincena con relleno de dulce de leche y recubrimiento de ralladura de coco.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+      <section data-id="18" class="productoGlobal">
+        <img class="imagenProducto" src="../Images/Desayuno/Postre/brownie.jpg" alt="imagen-producto">
+        <h2 class="nombreProducto">Brownie</h2>
+        <h3 class="precioProducto">$160</h3>
+        <p class="descripcionProducto">Porción de brownie. Hecha a base de bizcocho de chocolate con nueces. Perfecto para acompañar con un cafe.</p>
+        <button class="buttonOrder btn btn-success ">Ordenar</button>
+      </section>
+
+    </main>
+
+
+    <!--Button de Instagram-->
+    <a class="instagram-button" target="blank" href="https://www.instagram.com/">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <!--Button de Carrito-->
+    <a class="carrito-button" target="blank">
+      <div class="carrito-cantidad">
+        <p class="carrito-cantidad-numero">0</p>
+      </div>
+      <i class="fas fa-shopping-cart"></i>
+    </a>
+
+    <script src="https://kit.fontawesome.com/9ed8b2ceb1.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
