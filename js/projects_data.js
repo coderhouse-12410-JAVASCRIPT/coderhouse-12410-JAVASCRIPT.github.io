@@ -36,7 +36,7 @@ const projects = {
             project_title: "Cotizador de seguros online para autos clásicos",
             folder: "tu_clasico_seguro_cotizador",
             student: "Maximiliano Prez",
-            img_preview_src: "https://raw.githubusercontent.com/maxiprez/tu_clasico_seguro/master/images/cotizador_clasico_online.png",
+            img_preview_src: "https://i.ibb.co/c6Dp6mp/cotizador-clasico-online.png",
             date: "Mar 22, 2021",
             contact: "maxi.prez@gmail.com"
         }/*,
