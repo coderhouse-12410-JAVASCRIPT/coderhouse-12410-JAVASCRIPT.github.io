@@ -31,15 +31,15 @@ const projects = {
             img_preview_src: "https://firebasestorage.googleapis.com/v0/b/menu-interactivo-96a52.appspot.com/o/menuProyecto.png?alt=media&token=44e4ed82-96e4-4d05-9e00-635503b09bc7",
             date: "Mar 15, 2021",
             contact: "joaquinbriz1@gmail.com"
-        }/*,
-        {
-            project_title: "Project Title",
-            folder: "project_1",
-            student: "Ale Medici",
-            img_preview_src: "https://via.placeholder.com/400x150/FF8C00/000000",
-            date: "Feb 22, 2021",
-            contact: "ble.blo@gmail.com"
         },
+        {
+            project_title: "Cotizador de seguros online para autos clásicos",
+            folder: "tu_clasico_seguro_cotizador",
+            student: "Maximiliano Prez",
+            img_preview_src: "https://maxiprez.github.io/tu_clasico_seguro/pages/image.html",
+            date: "Mar 22, 2021",
+            contact: "maxi.prez@gmail.com"
+        }/*,
         {
             project_title: "Project Title",
             folder: "project_1",
