@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="Barista-menu">
+		<meta name="description" content="Barista, el sitio web del café.">
+		<meta name="keywords" content="CAFE, MERIENDA, DESAYUNO, ROAST">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+        <title>Barista</title>
+    </head>
+    <body id="body">
+ <!--NAVBAR-->
+        <header>
+            <div class="contenedor">
+                <nav class="navbar">
+                    <!--<div class="navbar-center">
+                        <span class="nav-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </div>-->
+                    <!--<div class="btn">
+                        <span class="nav-icon">
+                            <i class="fas fa-cart-plus"></i>
+                        </span>
+                        <div class="items">0</div>
+                    </div>-->
+                    <div class="enlaces" id="inf">
+                        <a class="logotipo" href="#"><img src="img/logoletras.png" width="12%"></a>
+                        <a href="#main" id="home">Inicio</a>
+                        <a href="#productos">Comprar</a>
+                        <a href="#envios">Envíos</a>
+                        <a href="#aboutus">Nosotros</a>
+                        <a class="btn">
+                            <i class="fas fa-cart-plus"></i>
+                            <div class="items"></div>
+                        </a>
+                        <button class="switch" id="switch">
+                            <span><i class="fas fa-sun"></i></span>
+                            <span><i class="fas fa-moon"></i></span>
+                        </button>
+                    </div>
+                </nav>
+            </div> 
+        </header>
+        <section id="home">
+             <!--PRESENTATION-->
+            <div id="main">
+                <img src="img/wallpaper.png" id="portada">
+                <br>
+                <h4 id="inf" class="np">Nuestros Productos</h4>
+            </div>
+             <!--PRODUCTS-->
+            <div class="products" id="productos">
+                <div class="product" id="inf"> 
+                    <article class="product">
+                        <div class="photo">
+                        <img src="img/11.png" alt="product" class="product-img"/>
+                        <button class="bag-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>agregar
+                        </button>
+                        </div>
+                        <hr id="linea">
+                        <h3 id="inf">Vainilla Brew (10)</h3>
+                        <h4>$1100</h4>
+                    </article>
+                </div>
+            </div>
+            </section>
+            <br>
+             <!--SHOPPING CART-->
+            <div class="sideBar">
+                <div class="cart">
+                    <span class="close"><i class="fas fa-arrow-left"></i></span>
+                    <h2>Tu Pedido</h2>
+                    <div class="content">
+                         <!--
+                        <div class="cart-item">
+                            <img src="img/productModel.png" alt="product">
+                            <div>
+                              <h4>Vainilla Brew</h4>
+                              <h5>$1100</h5>
+                              <span class="remove">Eliminar</span>
+                            </div>
+                            <div>
+                              <i class="fas fa-chevron-up"></i>
+                              <p class="item-amount">
+                                1
+                              </p>
+                              <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        -->
+                        </div>
+                        <button class="keepB"> <a href="#productos" >Continuar Comprando</a> </button>
+                        <div class="cart-footer">
+                            <h3>TOTAL: $<span class="total">0</span></h3>
+                            <button class="clear banner-btn" id="vaciar"> Vaciar carrito </button>
+                            <button type="button" class="finalizar" id="end">Finalizar Compra</button>
+                            <form id="formu" >
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="fname">Nombre:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </div>
+                                    <div class="col">
+                                        <label for="lname">Apellido:</label><br>
+                                        <input type="text" id="lname" name="lname"><br><br> 
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="fname">Calle:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </div>
+                                    <div class="col">
+                                        <label for="fname">Altura:</label><br>
+                                        <input type="number" id="fname" name="fname"><br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <label for="fname">Email:</label><br>
+                                    <input type="email" id="fname" name="fname"><br>
+                                </div>
+                                <div class="row"> 
+                                    <label for="fname">Numero de tarjeta:</label><br>
+                                    <input type="number" id="fname" name="fname"><br>
+                                </div>
+                            </form>
+                            <button id="question" > ¿Pagar con mercado pago? </button>
+                            <div id="mercadopago">
+                                <p> Haz click aquí 👇</p>
+                                <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js" data-preference-id='<%= global.id %>' ></script>
+                            </div>
+                            
+                            <br>
+                            <button id="cancelar">Cancelar</button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <br>
+             <!--SHIPPING-->
+            <div id="envios">
+                <h4 id="inf">Envíos <i class="fas fa-archive"></i> </h4>
+                <p id="inf">Envíos de Lunes a Sábados dentro de las 48 hs de realizado el pedido. Enviós a CABA sin costo. Hacemos envíos al interior del país. </p>
+            </div>
+             <!--ABOUT US-->
+            <div id="aboutus">
+                <h4 id="inf">Nosotros <i class="fas fa-info"></i></h4>
+                <p id="inf">Somos una empresa dedicada a la importación y elaboración de las mejores capsulas de café del país.</p>
+            </div>
+        </section>
+        <br>
+         <!--FOOTER-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5 id="inf"><img src="img/logoletras.png" width="20%"> <img src="img/logomorarron.png" width="25"></h5>
+                        <p id="inf">Buenos Aires, Argentina.</p>
+                    </div>
+                    <div class="col">
+                        <h5 id="inf">Contactanos</h5>
+                        <div>
+                            <a href="mailto:laraconverso.business@gmail.com" id="contacto"><img src="img/mail.png" alt="Mail" id="icon"></a>
+                            <a href="https://www.facebook.com/" id="contacto"><img src="img/facebook.png" alt="Facebook" id="icon"></a>
+                            <a href="https://www.instagram.com/" id="contacto"><img src="img/Instagram.png" alt="Instagram" id="icon"></a>
+                            <a href="https://twitter.com/" id="contacto"><img src="img/twitter.png" alt="Twitter" id="icon"></a>
+                            <a href="https://www.tiktok.com/" id="contacto"><img src="img/tiktok.png" alt="Tiktok" id="icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="js/switch.js"></script>
+    </body>
+</html> 
+<!--by LaraConverso>

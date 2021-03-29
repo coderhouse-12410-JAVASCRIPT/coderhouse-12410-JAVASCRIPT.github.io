@@ -39,6 +39,14 @@ const projects = {
             img_preview_src: "https://i.ibb.co/c6Dp6mp/cotizador-clasico-online.png",
             date: "Mar 22, 2021",
             contact: "maxi.prez@gmail.com"
+        },
+        {
+            project_title: "Barista e-commerce",
+            folder: "Barista",
+            student: "Lara Converso",
+            img_preview_src: "https://raw.githubusercontent.com/Laraconverso/Barista/main/img/Barista-Preview.png",
+            date: "Mar 29, 2021",
+            contact: "laraconverso@gmail.com"
         }/*,
         {
             project_title: "Project Title",
