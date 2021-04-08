@@ -49,6 +49,11 @@ class Project extends HTMLElement {
             "text": this.title
         });
 
+        let p_student = $('<p/>', {
+            "class": "small",
+            "text": this.student
+        });
+
         let p_date = $('<p/>', {
             "class": "small",
             "text": this.date
@@ -65,6 +70,31 @@ class Project extends HTMLElement {
         let div_col_6_right =  $('<div/>', {
             "class": "col-6 text-right"
         });
+
+        let div_col_6_ul =  $('<div/>', {
+            "class": "col-6"
+        });
+
+        let ul_col_6 =  $('<ul/>', {
+            "class": "social-links small circle"
+        });
+
+        let ul_col_6_li =  $('<li/>', {
+            "class": "email"
+        });
+
+        let ul_col_6_li_a =  $('<a/>', {
+            "href": "mailto: " + this.contact
+        });
+
+        let ul_col_6_li_a_i = $('<i/>', {
+            "class": "fa fa-envelope"
+        });
+
+        ul_col_6_li_a.append(ul_col_6_li_a_i);
+        ul_col_6_li.append(ul_col_6_li_a);
+        ul_col_6.append(ul_col_6_li);
+        div_col_6_ul.append(ul_col_6)
         
         let a_div_col_6 = $('<a/>', {
             "class": "btn radius-50 btn-gray-transparent btn-animated",
@@ -79,7 +109,7 @@ class Project extends HTMLElement {
         a_i.appendTo(a_div_col_6);
 
         a_div_col_6.appendTo(div_col_6_right);
-        
+        div_col_6_ul.appendTo(div_row_flex);
         div_col_6_right.appendTo(div_row_flex);
 
 
@@ -91,6 +121,7 @@ class Project extends HTMLElement {
 
         h5_title.appendTo(div_body)
 
+        p_student.appendTo(div_body)
         p_date.appendTo(div_body)
 
         div_row_flex.appendTo(div_body)

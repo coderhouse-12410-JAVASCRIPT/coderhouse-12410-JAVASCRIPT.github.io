@@ -1,9 +1,9 @@
 const projects = {
     project_list: [
         {
-            project_title: "After-Class-SPA",
+            project_title: "After-Class-SPA (Ejemplo)",
             folder: "after-class-spa",
-            student: "Alejandro Medici",
+            student: "Alejandro Medici(Docente)",
             img_preview_src: "https://via.placeholder.com/400x150/FF0000/000000",
             date: "Feb 20, 2021",
             contact: "alejandro.medici@nextiteration.com.ar"
