@@ -18,10 +18,6 @@
     "url": "https://github.com/Laraconverso/Barista/issues"
   },
   "homepage": "https://github.com/Laraconverso/Barista#readme",
-  "devDependencies": {
-    "node-sass": "^5.0.0",
-    "nodemon": "^7.0.0"
-  },
   "dependencies": {
     "mercadopago": "^1.5.5"
   }
